@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*banner 登录注册部分*/
+.banner{
+	background:#f9fbfd;
+	height: 654px;
+	margin-top: 64px;
+	width: 100%;
+}
+.main>ul .last_li a{
+	background:none;
+}
+.res{
+	display: none;
+	background: none;
+}
+.banner_l{
+	background: url(../img/banner.png) no-repeat;
+	height: 654px;
+}
+.main{
+	height: 500px;
+	width: 450px;
+	margin-top: 39px;
+	margin-left: 630px;
+	border: 1px solid gray;
+}
+.main>p{
+	margin-left: 25px;
+	margin-top: 15px;
+	font-size: 16px;
+	font-family: "宋体";
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+}
+.main>p span{
+	font-size: 22px;
+	margin-right: 10px;
+}
+
+.main>ul{
+	width: 300px;
+	margin: 0 auto;
+	padding-left: 40px;
+	border-bottom: 1px solid black;
+	overflow: hidden;
+	margin-top: 30px;
+}
+.main>ul li{
+	float: left;
+	margin: 0 20px;
+	font-size: 20px;
+}
+.main>ul li a{
+	display: block;
+	width: 70px;
+	text-align: center;
+	background: url(../img/banner_bac.png) no-repeat center bottom;
+	padding-bottom: 10px;
+}
+.main>div{
+	margin-left: 44px;
+	margin-top: 38px;
+}
+/*登录页面布局*/
+.main .login .login_t{
+	border:1px solid #ccc;
+	width: 323px;
+	height: 40px;
+}
+.main .login .login_t span{
+	float: left;
+	width: 40px;
+	height: 38px;
+	background: url(../img/bac_logo1.png) no-repeat;
+	border-right: 1px solid #ccc;
+}
+.main .login .login_t input{
+	float: left;
+	width: 280px;
+	height: 38px;
+	border: none;
+	outline: none;
+	font-size: 15px;
+	line-height: 38px;
+}
+.main .login .login_b{
+	border: 1px solid #ccc;
+	width: 323px;
+	height: 40px;
+	margin-top: 30px;
+}
+.main .login .login_b span{
+	float: left;
+	width: 40px;
+	height: 38px;
+	background: url(../img/bac_logo2.png) no-repeat;
+	border-right: 1px solid #ccc;
+}
+.main .login .login_b input{
+	float: left;
+	width: 280px;
+	height: 38px;
+	border: none;
+	outline: none;
+	font-size: 15px;
+	line-height: 38px;
+}
+.main .login .login_c{
+	text-align: right;
+	width: 321px;
+	overflow: hidden;
+	margin: 5px 0;
+}
+.main .login .login_c a{
+	font-size: 14px;
+	margin: 5px 0;
+}
+.main .login>button{
+	border:none;
+	outline: none;
+	width: 320px;
+	height: 40px;
+	background: #e14958;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+}
+
+.main .res .res_1{
+	border: 1px solid #ccc;
+	width: 324px;
+	height: 40px;
+}
+.main .res .res_1 span{
+	float: left;
+	width: 40px;
+	height: 38px;
+	background: url(../img/bac_logo1.png) no-repeat;
+	border-right: 1px solid #ccc;
+}
+.main .res .res_1 input{
+	float: left;
+	width: 280px;
+	height: 38px;
+	line-height: 38px;
+	border:none;
+	outline: none;
+	font-size: 15px;
+}
+
+.main .res .res_2{
+	margin:20px 0;
+	width: 321px;
+}
+.main .res .res_2 .res_2_1{
+	float: left;
+	border:1px solid #ccc;
+	width: 204px;
+	height: 40px;
+}
+.main .res .res_2 .res_2_1 span{
+	float:left;
+	width: 40px;
+	height: 38px;
+	background:url(../img/bac_logo2.png) no-repeat;
+	border-right:1px solid #ccc;
+}
+.main .res .res_2 .res_2_1 input{
+	float:left;
+	width:160px;
+	height:38px;
+	border:none;
+	outline:none;
+	font-size:15px;
+	line-height:38px;
+}
+.main .res .res_2>span{
+	float: left;
+	width: 102px;
+	height: 28px;
+	margin:10px 0 20px 10px;
+}
+.main .res .res_2>span p{
+	width: 102px;
+	height: 28px;
+	background: red;
+}
+.main .res .res_3{
+	margin: 20px 0;
+	width: 321px;
+}
+.main .res .res_3 .res_3_1{
+	float: left;
+	border: 1px solid #ccc;
+	width: 204px;
+	height: 40px;
+	margin-right: 20px;
+}
+.main .res .res_3 .res_3_1 span{
+	float:left;
+	width: 40px;
+	height: 38px;
+	background:url(../img/bac_logo2.png) no-repeat;
+	border-right:1px solid #ccc;
+}
+.main .res .res_3 .res_3_1 input{
+	float:left;
+	width:160px;
+	height:38px;
+	border:none;
+	outline:none;
+	font-size:15px;
+	line-height:38px;
+}
+.main .res .res_3>span{
+	width: 102px;
+	height: 28px;
+	background-color:red;
+}
+.main .res .res_3>span  a{
+	width:102px;
+	height:28px;
+	background:red;
+	text-align: center;
+	padding: 5px;
+}
+
+.main .res .res_4{
+	border: 1px solid #ccc;
+	width: 323px;
+	height: 40px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.main .res .res_4 span{
+	float:left;
+	width:40px;
+	height:38px;
+	background:url(../img/bac_logo1.png) no-repeat;
+	border-right:1px solid #ccc;
+}
+.main .res .res_4 input {
+	width:280px;
+	height:38px;
+	border:none;
+	outline:none;
+	font-size:15px;
+	line-height:38px;
+}
+
+.main .res .res_5{
+	float: left;
+}
+.main .res .res_5 a{
+	color:#00f;
+	margin:20px 0;
+}
+.main .res .res_5 a:hover{
+	text-decoration:underline;
+}
+.main .res>button{
+	border:none;
+	outline:none;
+	margin-top:20px;
+	width:320px;
+	height:40px;
+	line-height:40px;
+	background:#ccc;
+	font-size:18px;
+	color:#fff;
+	text-align:center;
+}
+/*banner 登录注册部分*/
