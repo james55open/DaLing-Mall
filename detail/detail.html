@@ -1,0 +1,230 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta  charset="utf-8" />
+		<title>我的订单</title>
+		<link rel="stylesheet" type="text/css" href="../common/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/detail.css" />
+		<script type="text/javascript" src="../js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="../js/index.js"></script>
+		<script type="text/javascript" src="js/detail.js"></script>
+		<script type="text/javascript" src="js/cookie.js"></script>
+	</head>
+<body>
+	<!--1.head start-->
+	<div class="head">
+		<div class="layout">
+			<p class="head_l">消费者告知书</p>
+			<div class="head_r">
+				<a href="../LoginRis/LoginRis.html"> 登录 </a>
+				<span> &nbsp;| &nbsp;</span>
+				<a href="../LoginRis/LoginRis.html"> 注册 </a>
+				<span>&nbsp; | </span>
+				<a href="#"><img src="img/head_r1.png"/></a>
+				<span>&nbsp;400-080-1888 &nbsp;| </span>
+				<a href="#" id="daling"> &nbsp;下载达令app</a>
+				<img id="daling1" src="img/daling.png"/>
+			</div>
+		</div>
+	</div>
+	<!--head end-->
+	<!--2.header start-->
+	<div class="header layout">
+		<div class="header_l">
+			<a href="#"><img class="header_l1" src="img/header_l.png"/></a>
+			<img src="img/header_l.gif"/></div>
+		<div class="header_c">
+			<form method="post" action="">
+				<input class="header_cl" type="text"/>
+				<input class="header_cr" type="button" value="搜索"/>
+			</form>
+			<p>
+				<a href="#">情趣&nbsp;</a>
+				<a href="#">巧克力&nbsp;</a>
+				<a href="#">香水&nbsp;</a>
+				<a href="#">面膜&nbsp;</a>
+				<a href="#">钱包&nbsp;</a>
+				<a href="#">项链&nbsp;</a>
+				<a href="#">杯子&nbsp;</a>
+				<a href="#">文具&nbsp;</a>
+				<a href="#">眼霜</a>
+			</p>
+		</div>
+		<div class="header_r">
+			<a href="../shopcar/shopcar.html">我的购物车</a>
+		</div>
+	</div>
+	<!--header end-->
+	<!--3.nav start-->
+	<div class="nav">
+		<div class="layout">
+			<a class="nav_first" href="javascript:;">全部分类</a>
+			<a href="../index.html">首页</a>
+			<a href="javascript:;">极致护肤</a>
+			<a href="javascript:;">全球零食</a>
+			<a href="javascript:;">创意生活</a>
+			<a href="javascript:;">时尚配饰</a>
+			<a href="javascript:;">尖货女装</a>
+			<a href="javascript:;">3C家电</a>
+		</div>
+	</div>
+	<!--nav end-->
+	
+	<!--banner start-->
+	<div class="banner layout">
+		<ul>
+			<li>露华浓新版四色眼影555# 4.8g</li>	
+		</ul>
+	</div>
+	<!--banner end-->
+	<!--lnav-->
+	<div class="lnav layout">
+		<div class="lnav_l" >
+			
+			<div id="box" style="position:relative;">
+				<img id="look" src="img/nav_l1.png" style="border:1px solid gray;"/>
+				<div id="move" class="move" style="opacity :0.7;display:none;position:absolute;left:0;top:0;width:100px;height:100px;background:red;"></div>
+				<div id="bimg" class="bDiv" style="overflow : hidden;display:none;position:absolute;width:400px;height:400px;border:1px solid gray;left:390px;top:0px;">
+					<img src="img/nav_l1.png" id="b_bimg" style="width:800px;height:800px;position:absolute;left:40px;top:-20px;"/>
+				</div>
+			</div>
+			
+			<ul id="uu">
+				<li>分享</li>
+				<li>收藏</li>
+				<li id="bor">
+					<p id="shop">消费者告知书</p>
+					<span style="display:none;" id="shopshow"><p class="l11">消费者告知书</p>
+					尊敬的客户：您好！在您选购境外商品前，麻烦您仔细阅读此文，同意本文所告知内容后再进行下单购买：1.您在本（公司）网站上购买的境外商品为产地直销商品，仅限个人自用不得进行再销售，商品本身可能无中文标签，您可以查看网站的翻译或者在线联系我们的客服。2.您购买的境外商品适用的品质、健康、标识等项目使用标准符合原产国使用标准，但是可能与我国标准有所不同，所以在使用过程中由此可能产生的危害或损失以及其他风险，将由您个人承担。3.您在本（公司）网站上购买保税区发货的境外商品时，自动视为由达令极速免税店代您向海关进行申报和代缴税款。谢谢！					
+					</span>
+					
+				</li>
+			</ul>
+		</div>
+		<div class="lnav_c">
+			<p class="l1" id="inf">[韩国 · 三步护理紧致焕肤] L'AFFAIR 莱妃尔三部曲面膜10片25ml(胶原紧致焕肤 粉色)</p>
+			<p class="l2"><span>达令价</span><img src="img/nav_c.png"/></p>
+			<p class="l3">收藏价:<span id="price">71</span></p>
+			<ul class="l4" id="lis">
+				<li class="last_l">款式</li>
+				<li><a href="javascript:;"><img id="img1" src="img/nav_c1.png"/></a></li>
+				<li><a href="javascript:;"><img id="img2" src="img/nav_c2.png"/></a></li>
+				<li><a href="javascript:;"><img id="img3" src="img/nav_c1.png"/></a></li>
+			</ul>
+			<ul class="l5">
+				<li>购买数量</li>
+				<li class="first_l">
+					<span id="in">0</span>
+					<a  href="javascript:;"><img id="a" src="img/nav_c3.png"/></a>
+					<a  href="javascript:;"><img id="b" src="img/nav_c4.png"/></a>
+				</li>
+			</ul>
+			<div class="l6">
+				<a href="javascript:;">立即购买</a>
+				<a id="no1" href="javascript:;">添加到购物车</a>
+			</div>
+			<div class="l7">
+				<img src="img/nav_c5.png"/><img src="img/nav_c6.png"/><img src="img/nav_c7.png"/>	
+			</div>
+		</div>
+	<!---->	
+		<div class="fast_r">
+			<dl>
+				<dt><a href="javascript:;"><img src="img/fast5.png"></a></dt>
+				<dd>
+					<a href="javascript:;">3.2折 印花字母连帽中长款纯色百搭长袖风衣女秋外套米杏色(S)</a>
+					<a class="p1" href="javascript:;">收藏<span class="_r3">购物车</span></a>	
+				</dd>
+			</dl>
+			<dl>
+				<dt><a href="javascript:;"><img src="img/fast6.png"></a></dt>
+				<dd>
+					<a href="javascript:;">3.2折 印花字母连帽中长款纯色百搭长袖风衣女秋外套米杏色(S)</a>
+					<a class="p1" href="javascript:;">收藏<span class="_r3">购物车</span></a>	
+				</dd>
+			</dl>
+			<dl>
+				<dt><a href="javascript:;"><img src="img/fast7.png"></a></dt>
+				<dd>
+					<a href="javascript:;">3.2折 印花字母连帽中长款纯色百搭长袖风衣女秋外套米杏色(S)</a>
+					<a class="p1" href="javascript:;">收藏<span class="_r3">购物车</span></a>	
+				</dd>
+			</dl>
+			<dl>
+				<dt><a href="javascript:;"><img src="img/fast8.png"></a></dt>
+				<dd>
+					<a href="javascript:;">3.2折 印花字母连帽中长款纯色百搭长袖风衣女秋外套米杏色(S)</a>
+					<a class="p1" href="javascript:;">收藏<span class="_r3">购物车</span></a>	
+				</dd>
+			</dl>
+			<dl>
+				<dt><a href="javascript:;"><img src="img/fast8.png"></a></dt>
+				<dd>
+					<a href="javascript:;">3.2折 印花字母连帽中长款纯色百搭长袖风衣女秋外套米杏色(S)</a>
+					<a class="p1" href="javascript:;">收藏<span class="_r3">购物车</span></a>	
+				</dd>
+			</dl>
+			<dl>
+				<dt><a href="javascript:;"><img src="img/fast7.png"/></a></dt>
+				<dd>
+					<a href="javascript:;">3.2折 印花字母连帽中长款纯色百搭长袖风衣女秋外套米杏色(S)</a>
+					<a class="p1" href="javascript:;">收藏<span class="_r3">购物车</span></a>	
+				</dd>
+			</dl>
+		</div>
+		<!---->	
+	</div>
+	
+	<!--lnav-->
+	<!--售后-->
+	<div class="after layout">
+		<ul>
+			<li>商品信息</li>
+			<li>售后服务</li>
+		</ul>
+		<p class="p1">商品参数</p>
+		<div><img src="img/after.png"/></div>
+		<p>
+			<p>售后服务</p>
+			<p>客服电话： 400-080-1888，客服时间：周一至周日 09:00-18:00 </p>
+			<p>配送服务： 限大陆地区；申通或中通随机发货！订单满55元包邮；首单免运费！</p> 
+			<p>发货时间： 周一到周日全天发货，17点前付款当日发货</p> 
+			<p>相关服务： 至我的订单详情页，可申请退款</p> 
+			<p>微信服务： 微信号：ymallll，及时服务时间：周一至周日 09:00-18:00 </p>
+		</p>
+	</div>
+	<!--售后-->
+	
+	
+	
+	<!--12foot start-->
+	<div class="foot layout">
+		<ul class="foot_1">
+			<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为什么选择达令<span><img src="img/foot4.png"/></span></li>
+			<li><img src="img/foot1.png"/>100多个品牌授权</li>
+			<li><img src="img/foot2.png"/>24小时发货</li>
+			<li><img src="img/foot3.png"/>保证是正品</li>
+		</ul>
+		<ul class="foot_2">
+			<li>投资人说达令：<span>“hi，达令，我是鹿晗，达令投资人，投资比影响力更重要的是责任。”</span></li>
+			<li class="foot_2_r">投资人说达令：<span>“达令™一手全球好货--带您购全球,教您神马值得买。连续两年荣获App store 编辑推荐最佳购物类应用！”</span></li>
+		</ul>
+		<div class="foot_3">
+			<a href="javascript:;">首页&nbsp;|&nbsp;</a>
+			<a href="javascript:;">网站地图&nbsp;|&nbsp;</a>
+			<a href="javascript:;">消费者告知书&nbsp;|&nbsp;</a>
+			<a href="javascript:;">优惠券使用规则&nbsp;|&nbsp;</a>
+			<a href="javascript:;">退换货使用说明&nbsp;|&nbsp;</a>
+			<a href="javascript:;">关于我们&nbsp;|&nbsp;</a>
+			<a href="javascript:;">联系我们&nbsp;&nbsp;</a>
+		</div>
+		<p class="foot_4">
+			<span>北京普缇客科技有限公司</span><a href="javascript:;"><img src="img/foot8.png"></a><a href="javascript:;"><img src="img/foot7.png"></a><a class="last_foot" href="javascript:;"><img src="img/foot6.png"></a>
+		</p>
+		
+		<p class="foot_5">Copyright © 2016达令 ，All Rights Reserved │ 京ICP备14009583号-1 │ 京公网安备11010502027399 | 食品流通许可证编号：SP1101051510323113 </p>
+	</div>
+	<!--foot end-->
+	
+</body>
+</html>

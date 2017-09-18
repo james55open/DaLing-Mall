@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+/*banner*/
+
+.banner ul{
+	margin-bottom:10px;
+	line-height:40px;
+	padding-left:100px;
+	margin-top:5px;
+	width:1100px;border-top:1px solid gray;
+	border-top:1px solid gray;
+	height:40px;
+	background:url(../img/banner_a.png) no-repeat left center;
+}
+
+/*banner*/
+/*nav*/
+#uu{
+	position:absolute;
+}
+.lnav_l{
+	float:left;
+	margin-right:40px;
+}
+.lnav_c{
+	float:left;
+	width:350px;
+	height:375px;
+	overflow:hidden;
+}
+.lnav_l{
+	width:375px;
+	height:500px;
+}
+/**/
+
+.fast_r{
+	float:left;
+	height:500px;
+	width:300px;
+	overflow:hidden;
+	margin-left:80px;
+}
+.fast_r dl{
+	width:340px;
+	height:145px;
+	overflow:hidden;
+	border:1px solid black;
+	margin-bottom:10px;
+}
+.fast_r dl dt{
+	width:200px;
+	float:left;
+}
+.fast_r dl dd{
+	width:100px;
+	float:left;
+	font-size:10px;
+}
+.fast_r dl dd a{
+	width:100px;
+	font-size:10px;
+}
+.fast_r dl dd a:hover {
+	text-decoration:underline;
+	margin-bottom:0;
+}
+.fast_r dl dd .p1{
+	float:left;
+	width:30px;
+	height:20px;
+	background:url(../img/fast_bac.png) no-repeat;
+	text-align:right;
+}
+.fast_r dl dd .p1 ._r3{
+	float:left;
+	width:60px;
+	margin:0;
+}
+.fast_r dl dd .p1:hover{
+	text-decoration:underline;
+}
+.fast_r dl dd .p1 span{
+	background:red;
+	padding:2px 10px;
+	margin-left:5px;
+}
+.fast_r dl dd .p1:hover span{
+	text-decoration:none;
+}
+
+/**/
+.lnav_l>img{
+	border:1px solid gray;
+}
+.lnav_l ul li{
+	float:left;
+	width:100px;
+}
+.lnav_l ul li p{
+	float:left;
+	width:100px;
+}
+.lnav_l ul li .l11{
+	width:100px;
+}
+.lnav_l .l1{
+	margin-bottom:5px;
+	font-size:16px;
+}
+.lnav_c .l2{
+	width:500px;
+	margin-top:20px;
+}
+.lnav_c .l2  img{
+	float:right;
+	margin-right:200px;
+}
+.lnav_c .l3{
+	margin-top:60px;
+	padding-left:60px;
+	border:1px solid gray;
+}
+.lnav_c .l4{
+	margin-top:20px;
+	margin-bottom:80px;
+}
+.lnav_c .l4 li{
+	float:left;
+	margin-right:10px;
+	width:45px;
+	height:45px;
+}
+.lnav_c .l4 li:hover{
+	border:2px solid red;
+}
+.lnav_c .l4 .last_l{
+	margin-right:80px;
+}
+.lnav_c .l4 .last_l:hover{
+	border:none;
+}
+.lnav_c .l5{
+	margin-top:10px;
+	margin-bottom:50px;
+}
+.lnav_c .l5 .first_l{
+	float:right;
+	margin-right:170px;
+	padding-left:30px;
+	width:60px;
+	overflow:hidden;
+}
+.lnav_c .l5 .first_l span{
+	float:left;
+	height:30px;
+	width:30px;
+	border:1px solid gray;
+	text-align:center;
+	line-height:30px;
+}
+.lnav_c .l5 .first_l img{
+	margin-bottom:2px;
+	margin-left:5px;
+}
+.lnav_c .l6{
+	overflow:hidden;
+}
+.lnav_c .l6 a{
+	float:left;
+	width:140px;
+	height:38px;
+	background:red;
+	line-height:38px;
+	text-align:center;
+	margin:10px 10px;
+}
+.lnav_c .l7{
+	overflow:hidden;
+	width:400px;
+	height:60px;
+}
+.lnav_c .l7 img{
+	float:left;
+	margin-right:10px;
+	margin-top:20px;
+}
+	
+/*nav*/
+/*after*/
+.after ul{
+	border-bottom:1px solid gray;
+	overflow:hidden;
+}
+.after ul li{
+	text-align:center;
+	height:36px;
+	line-height:36px;
+	border:1px solid gray;
+	padding:0 20px;
+	margin-bottom:none;
+	float:left;
+	margin-right:10px;
+}
+.after .p1{
+	margin:20px 0;
+}
+.after div{
+	overflow:hidden;
+}
+.after p{
+	margin:2px 0;
+}
+/*after*/
+
+
+
+
+
